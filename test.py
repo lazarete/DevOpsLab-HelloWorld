@@ -20,7 +20,7 @@ class Test(unittest.TestCase):
 
         # verifica o retorno do conteudo da pagina
         self.assertRegex(result.data.decode(), "DevOps Lazarete")
-        self.assertRegex(result.data.decode(), "Continue na trilha DevOps 4Linux!")
+        self.assertRegex(result.data.decode(), "Vamos Devopar essa BAGAÇA!")
 
 
 if __name__ == "__main__":
